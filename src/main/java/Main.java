@@ -1,6 +1,9 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        SillyText sillyText = new SillyText();
+        String text = "Hello World!";
+        String silly = sillyText.sillyfy(text);
+        System.out.println(text + " => " + silly);
     }
 }

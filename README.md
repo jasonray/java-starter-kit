@@ -1,3 +1,5 @@
+Java-Starter-Kit [![Build Status](https://travis-ci.org/jasonray/java-starter-kit.svg?branch=master)](https://travis-ci.org/jasonray/java-starter-kit)
+
 Overview
 ========
 I often find myself struggling, after not working with java for many moons, on how to start a simple project.  I am so spoiled after working with node.js for so long :)

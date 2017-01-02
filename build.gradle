@@ -24,4 +24,3 @@ buildscript {
 }
 apply plugin: 'com.github.johnrengelman.shadow'
 
-mainClassName = 'net.jayray.Main'

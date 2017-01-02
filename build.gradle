@@ -13,3 +13,15 @@ dependencies {
 task wrapper(type: Wrapper) {
     gradleVersion = '3.2.1'
 }
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.github.jengelman.gradle.plugins:shadow:1.2.4'
+    }
+}
+apply plugin: 'com.github.johnrengelman.shadow'
+
+mainClassName = 'net.jayray.Main'

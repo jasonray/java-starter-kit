@@ -48,6 +48,8 @@ Run the following command to setup the idea project
 gradle cleanIdea idea
 ```
 
+
+TODO: fix the `run` part of this
 How to Run, Method 1
 ====================
 

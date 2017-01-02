@@ -15,6 +15,16 @@ public class SillyTextTest {
         runTest("", "");
     }
 
+    @Test
+    public void oTo0() {
+        runTest("o", "0");
+    }
+
+    @Test
+    public void OTo0() {
+        runTest("O", "0");
+    }
+
     private void runTest(String input, String expectedOutput) {
         assertEquals(expectedOutput, sillyText.sillyfy(input));
     }

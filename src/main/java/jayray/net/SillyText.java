@@ -1,6 +1,5 @@
-/**
- * Created by jason.ray on 1/2/17.
- */
+package jayray.net;
+
 public class SillyText {
     public String sillyfy(String input) {
         if (input == null) return input;

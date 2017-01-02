@@ -10,6 +10,11 @@ public class SillyTextTest {
         runTest(null, null);
     }
 
+    @Test
+    public void withEmptyString() {
+        runTest("", "");
+    }
+
     private void runTest(String input, String expectedOutput) {
         assertEquals(expectedOutput, sillyText.sillyfy(input));
     }
